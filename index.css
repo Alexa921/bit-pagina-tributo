@@ -1,0 +1,388 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*HEADER*/
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 70px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 310px;
+    margin-top: 10px;
+}
+
+.texto-header {
+    float: right;
+    margin-right: 350px;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+/*NAV*/
+
+li {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    list-style: none;
+    float: left;
+    padding-left: 250px;
+    margin-right: 25px;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.751);
+    cursor: pointer;
+
+    /*Tipografia2*/
+        font-family: "Nanum Myeongjo", serif;
+        font-weight: bold;
+        font-style: normal;    
+}
+
+/*MAIN*/
+
+/*Portada*/
+
+.fecha-portada {
+    font-size: 20px;
+    padding-top: 200px;
+    padding-left: 890px;
+    letter-spacing: 1px;
+}
+
+.titulo-portada {
+    font-size: 130px;
+    letter-spacing: 2px;
+    padding-top: 70px;
+    padding-left: 700px;
+}
+
+.titulo-portada2 {
+    font-size: 130px;
+    letter-spacing: 2px;
+    margin-top: -20px;
+    padding-left: 610px;
+}
+
+.profesion-portada {
+    font-size: 22px;
+    margin-top: 50px;
+    padding-left: 790px;
+    color: #333;
+
+    /*Tipografia2*/
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: bold;
+    font-style: normal;    
+}
+
+.imagen-portada {
+    width: 400px;
+    height: 500px;
+    margin-left: 730px;
+    margin-top: 80px;
+}
+
+.descripcion-foto {
+    font-size: 20px;
+    margin-left: 850px;
+    margin-top: 10px;
+    color: #333333ac;
+}
+
+.subtitulo-portada {
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 650px;
+    margin-top: 100px;
+}
+
+.frase-portada {
+    font-size: 25px;
+    margin-left: 780px;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.839);
+}
+
+.hr-portada {
+    border: 2px solid rgba(0, 0, 0, 0.176);
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 90%;
+}
+
+/*Biografia*/
+
+.titulo-biografia {
+    font-size: 60px;
+    margin-left: 350px;
+    margin-top: 180px;
+}
+
+.texto-biografia {
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 50px;
+
+    /*Tipografia*/
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.imagen-biografia {
+    width: 400px;
+    height: 500px;
+    margin-left: 730px;
+    margin-top: -400px;
+    float: left;
+}
+
+.descripcion-foto2 {
+    font-size: 18px;
+    margin-left: 1200px;
+    margin-top: 110px;
+    color: #333333ac;
+}
+
+.hr-biografia {
+    border: 2px solid rgba(0, 0, 0, 0.176);
+    margin-top: 160px;
+    margin-left: 100px;
+    width: 90%;
+}
+
+/*Obras y actos importantes*/
+
+.titulo-obras-y-actos {
+    font-size: 60px;
+    margin-left: 700px;
+    margin-top: 180px;
+}
+
+.subtitulo-obras-y-actos {
+    font-size: 30px;
+    margin-left: 830px;
+    margin-top: -4px;
+    color: rgba(0, 0, 0, 0.839);
+
+    /*Tipografia2*/
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+/*CONTENEDORES*/
+/*Contenedor 1*/
+
+.contenedor1 {
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.133);
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.titulo-contenedor1-java {
+    font-size: 44px;
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: 1px;
+
+    /*Tipografia*/
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.titulo-contenedor1-java2 {
+    font-size: 44px;
+    text-align: center;
+    margin-top: -24px;
+    letter-spacing: 2px;
+
+    /*Tipografia*/
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.descripcion-contenedor1-java {
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 28px;
+
+    /*Tipografia*/
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imagen-contenedor1 {
+    width: 398px;
+    height: 200px;
+    margin-top: 42px;
+    border-radius: 0 0 6px 6px;
+}
+
+/*Contenedor 2*/
+
+.contenedor2 {
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.133);
+    border-radius: 8px;
+    margin-right: 750px;
+    margin-top: -500px;
+    float: right;
+}
+
+.titulo-contenedor2-java {
+    font-size: 44px;
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: 1px;
+
+    /*Tipografia*/
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.titulo-contenedor2-java2 {
+    font-size: 44px;
+    text-align: center;
+    margin-top: -24px;
+    letter-spacing: 2px;
+
+    /*Tipografia*/
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.descripcion-contenedor2-java {
+    font-size: 14px;
+    margin-left: 60px;
+    margin-top: 28px;
+
+    /*Tipografia*/
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imagen-contenedor2 {
+    width: 398px;
+    height: 200px;
+    margin-top: 42px;
+    border-radius: 0 0 6px 6px;
+}
+
+/*Contenedor 3*/
+
+.contenedor3 {
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.133);
+    border-radius: 8px;
+    margin-right: 260px;
+    margin-top: -500px;
+    float: right;
+}
+
+.titulo-contenedor3-java {
+    font-size: 44px;
+    text-align: center;
+    padding-top: 60px;
+    letter-spacing: 1px;
+
+    /*Tipografia*/
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.descripcion-contenedor3-java {
+    font-size: 14px;
+    margin-left: 60px;
+    margin-top: 50px;
+
+    /*Tipografia*/
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imagen-contenedor3 {
+    width: 398px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 0 0 6px 6px;
+}
+
+
+.hr-obras-actos {
+    border: 2px solid rgba(0, 0, 0, 0.176);
+    margin-top: 160px;
+    margin-left: 100px;
+    width: 90%;
+}
+
+/*Acontecimientos mas importantes*/
+
+.titulo-acontecimientos {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.titulo-acontecimientos2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.descripcion-acontecimientos {
+    font-size: 14px;
+    margin-top: 150px;
+    margin-left: 670px;
+    display: grid;
+
+    /*Tipografia*/
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imagen-acontecimientos-importantes {
+    width: 420px;
+    height: 540px;
+    float: left;
+    margin-left: 380px;
+    margin-top: -390px;
+}
+
+.descripcion-foto-acontecimientos {
+    font-size: 18px;
+    margin-left: 520px;
+    margin-top: 160px;
+    color: #333333ac;
+}
+
+.hr-acontecimientos {
+    border: 2px solid rgba(0, 0, 0, 0.176);
+    margin-top: 130px;
+    margin-left: 100px;
+    width: 90%;
+}
