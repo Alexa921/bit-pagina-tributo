@@ -49,35 +49,39 @@ li {
         font-style: normal;    
 }
 
+li:hover {
+    color: black;
+}
+
 /*MAIN*/
 
 /*Portada*/
 
 .fecha-portada {
     font-size: 20px;
-    padding-top: 200px;
-    padding-left: 890px;
+    padding-top: 180px;
+    padding-left: 1150px;
     letter-spacing: 1px;
 }
 
 .titulo-portada {
     font-size: 130px;
     letter-spacing: 2px;
-    padding-top: 70px;
-    padding-left: 700px;
+    padding-top: 30px;
+    padding-left: 980px;
 }
 
 .titulo-portada2 {
     font-size: 130px;
     letter-spacing: 2px;
     margin-top: -20px;
-    padding-left: 610px;
+    padding-left: 900px;
 }
 
 .profesion-portada {
     font-size: 22px;
-    margin-top: 50px;
-    padding-left: 790px;
+    margin-top: -4px;
+    padding-left: 1080px;
     color: #333;
 
     /*Tipografia2*/
@@ -89,13 +93,13 @@ li {
 .imagen-portada {
     width: 400px;
     height: 500px;
-    margin-left: 730px;
-    margin-top: 80px;
+    margin-left: 260px;
+    margin-top: -310px;
 }
 
 .descripcion-foto {
     font-size: 20px;
-    margin-left: 850px;
+    margin-left: 380px;
     margin-top: 10px;
     color: #333333ac;
 }
@@ -103,13 +107,13 @@ li {
 .subtitulo-portada {
     font-size: 60px;
     font-weight: bold;
-    margin-left: 650px;
-    margin-top: 100px;
+    margin-left: 940px;
+    margin-top: -150px;
 }
 
 .frase-portada {
     font-size: 25px;
-    margin-left: 780px;
+    margin-left: 1080px;
     margin-top: 15px;
     color: rgba(0, 0, 0, 0.839);
 }
@@ -351,12 +355,13 @@ li {
 .titulo-acontecimientos2 {
     font-size: 60px;
     text-align: center;
+    line-height: 1;
 }
 
 .descripcion-acontecimientos {
     font-size: 14px;
-    margin-top: 150px;
-    margin-left: 670px;
+    margin-top: 220px;
+    margin-left: 660px;
     display: grid;
 
     /*Tipografia*/
@@ -369,20 +374,123 @@ li {
     width: 420px;
     height: 540px;
     float: left;
-    margin-left: 380px;
-    margin-top: -390px;
+    margin-left: 420px;
+    margin-top: -370px;
+    display: block;
 }
 
 .descripcion-foto-acontecimientos {
     font-size: 18px;
-    margin-left: 520px;
-    margin-top: 160px;
+    margin-left: 560px;
+    margin-top: 180px;
     color: #333333ac;
+}
+
+.puntos-acontecimientos1 {
+    margin-left: 930px;
+    margin-top: -250px;
+}
+
+.puntos-acontecimientos2 {
+    margin-left: 930px;
+    margin-top: 58px;
+}
+
+.puntos-acontecimientos3 {
+    margin-left: 930px;
+    margin-top: 38px;
+}
+
+.puntos-acontecimientos4 {
+    margin-left: 930px;
+    margin-top: 57px;
 }
 
 .hr-acontecimientos {
     border: 2px solid rgba(0, 0, 0, 0.176);
-    margin-top: 130px;
+    margin-top: 150px;
     margin-left: 100px;
     width: 90%;
 }
+
+/*Datos curiosos*/
+
+.titulo-datos-curiosos {
+    font-size: 60px;
+    margin-left: 420px;
+    margin-top: 200px;
+}
+
+.titulo-datos-curiosos2 {
+    font-size: 60px;
+    margin-left: 420px;
+}
+
+.descripcion-datos-curiosos {
+    font-size: 14px;
+    margin-top: 70px;
+    margin-left: 140px;
+    display: grid;
+
+    /*Tipografia*/
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.puntos-datos-curiosos1 {
+    margin-left: 410px;
+    margin-top: -250px;
+}
+
+.puntos-datos-curiosos2 {
+    margin-left: 410px;
+    margin-top: 36px;
+}
+
+.puntos-datos-curiosos3 {
+    margin-left: 410px;
+    margin-top: 58px;
+}
+
+.puntos-datos-curiosos4 {
+    margin-left: 410px;
+    margin-top: 58px;
+}
+
+.imagen-datos-curiosos {
+    width: 400px;
+    height: 800px;
+    margin-left: 1100px;
+    margin-top: -520px;
+}
+
+/*Footer*/
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    margin-top: 80px;
+}
+
+.texto-footer {
+    color: white;
+    font-size: 18px;
+    padding-top: 100px;
+    padding-left: 700px;
+}
+
+.texto-footer2 {
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 740px;
+}
+
+.logo-footer {
+    width: 50px;
+    height: 50px;
+    margin-top: -40px;
+    margin-left: 580px;
+}
+
